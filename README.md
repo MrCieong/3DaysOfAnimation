@@ -6,5 +6,5 @@
 
 ### 01. Bubble
 
-![](https://github.com/MrCieong/15daysOfAnimation/gif/01_Bubble.gif)
+![](https://github.com/MrCieong/15daysOfAnimation/blob/master/gif/01_Bubble.gif)
 
