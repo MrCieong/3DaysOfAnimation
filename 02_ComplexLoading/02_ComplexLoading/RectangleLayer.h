@@ -6,8 +6,12 @@
 //  Copyright © 2017年 MrCieong. All rights reserved.
 //
 
-#import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIKit.h>
 
-@interface RectangleLayer : CALayer
+@interface RectangleLayer : CAShapeLayer
+
+- (instancetype)initWithColor:(UIColor *)color;
+
+- (void)animate;
 
 @end

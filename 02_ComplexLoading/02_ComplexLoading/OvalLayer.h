@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OvalLayer : CALayer
+@interface OvalLayer : CAShapeLayer
+
+- (void)expand;
+
+- (void)wobble;
+
+- (void)contract;
 
 @end

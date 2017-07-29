@@ -6,8 +6,10 @@
 //  Copyright © 2017年 MrCieong. All rights reserved.
 //
 
-#import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIKit.h>
 
-@interface TriangleLayer : CALayer
+@interface TriangleLayer : CAShapeLayer
+
+- (void)animate;
 
 @end

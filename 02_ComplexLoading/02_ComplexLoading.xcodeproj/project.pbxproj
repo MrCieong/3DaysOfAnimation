@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6124590B1F2C7AE20028C9B7 /* ArcLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6124590A1F2C7AE20028C9B7 /* ArcLayer.m */; };
 		61E263E71F2B52A800BECCE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E263E61F2B52A800BECCE2 /* main.m */; };
 		61E263EA1F2B52A800BECCE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E263E91F2B52A800BECCE2 /* AppDelegate.m */; };
 		61E263ED1F2B52A800BECCE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E263EC1F2B52A800BECCE2 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		612459091F2C7AE20028C9B7 /* ArcLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcLayer.h; sourceTree = "<group>"; };
+		6124590A1F2C7AE20028C9B7 /* ArcLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcLayer.m; sourceTree = "<group>"; };
 		61E263E21F2B52A800BECCE2 /* 02_ComplexLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 02_ComplexLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E263E61F2B52A800BECCE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61E263E81F2B52A800BECCE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				61E264031F2B52F000BECCE2 /* TriangleLayer.m */,
 				61E264051F2B530000BECCE2 /* RectangleLayer.h */,
 				61E264061F2B530000BECCE2 /* RectangleLayer.m */,
+				612459091F2C7AE20028C9B7 /* ArcLayer.h */,
+				6124590A1F2C7AE20028C9B7 /* ArcLayer.m */,
 			);
 			name = Layers;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6124590B1F2C7AE20028C9B7 /* ArcLayer.m in Sources */,
 				61E264071F2B530000BECCE2 /* RectangleLayer.m in Sources */,
 				61E263FE1F2B52CA00BECCE2 /* HolderView.m in Sources */,
 				61E264011F2B52DF00BECCE2 /* OvalLayer.m in Sources */,
@@ -352,6 +358,7 @@
 				61E263FB1F2B52A800BECCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
