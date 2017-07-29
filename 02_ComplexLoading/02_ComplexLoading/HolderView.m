@@ -132,8 +132,9 @@
 
 - (void)p_expandView {
     self.backgroundColor = [UIColor blueColor];
-    
-    self.frame = CGRectMake(self.frame.origin.x - 5, self.frame.origin.y - 5, self.frame.size.width + 5 * 2, self.frame.size.height + 5 * 2);
+    self.layer.sublayers = nil;
+    CGFloat lineWidth = self.blueRectangleLayer.lineWidth;
+    self.frame = CGRectMake(self.frame.origin.x - lineWidth, self.frame.origin.y - lineWidth, self.frame.size.width + lineWidth * 2, self.frame.size.height + lineWidth * 2);
     
     [UIView animateWithDuration:0.4 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.frame = self.parentFrame;
