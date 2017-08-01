@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		612459471F30B0F20028C9B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 612459461F30B0F20028C9B7 /* main.m */; };
+		6124594A1F30B0F20028C9B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 612459491F30B0F20028C9B7 /* AppDelegate.m */; };
+		6124594D1F30B0F20028C9B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6124594C1F30B0F20028C9B7 /* ViewController.m */; };
+		612459501F30B0F20028C9B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6124594E1F30B0F20028C9B7 /* Main.storyboard */; };
+		612459521F30B0F20028C9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612459511F30B0F20028C9B7 /* Assets.xcassets */; };
+		612459551F30B0F20028C9B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612459531F30B0F20028C9B7 /* LaunchScreen.storyboard */; };
+		612459621F30B1000028C9B7 /* PlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6124595D1F30B1000028C9B7 /* PlayLayer.m */; };
+		612459631F30B1000028C9B7 /* PauseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6124595F1F30B1000028C9B7 /* PauseLayer.m */; };
+		612459641F30B1000028C9B7 /* PlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 612459611F30B1000028C9B7 /* PlayButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		612459421F30B0F20028C9B7 /* 03_Play Pause Icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03_Play Pause Icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		612459461F30B0F20028C9B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		612459481F30B0F20028C9B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		612459491F30B0F20028C9B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6124594B1F30B0F20028C9B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6124594C1F30B0F20028C9B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6124594F1F30B0F20028C9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		612459511F30B0F20028C9B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		612459541F30B0F20028C9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		612459561F30B0F20028C9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6124595C1F30B1000028C9B7 /* PlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayLayer.h; path = ../../../../../Downloads/PauseIconDemo/PauseIconDemo/PlayLayer.h; sourceTree = "<group>"; };
+		6124595D1F30B1000028C9B7 /* PlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayLayer.m; path = ../../../../../Downloads/PauseIconDemo/PauseIconDemo/PlayLayer.m; sourceTree = "<group>"; };
+		6124595E1F30B1000028C9B7 /* PauseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PauseLayer.h; path = ../../../../../Downloads/PauseIconDemo/PauseIconDemo/PauseLayer.h; sourceTree = "<group>"; };
+		6124595F1F30B1000028C9B7 /* PauseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PauseLayer.m; path = ../../../../../Downloads/PauseIconDemo/PauseIconDemo/PauseLayer.m; sourceTree = "<group>"; };
+		612459601F30B1000028C9B7 /* PlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayButton.h; path = ../../../../../Downloads/PauseIconDemo/PauseIconDemo/PlayButton.h; sourceTree = "<group>"; };
+		612459611F30B1000028C9B7 /* PlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayButton.m; path = ../../../../../Downloads/PauseIconDemo/PauseIconDemo/PlayButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6124593F1F30B0F20028C9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		612459391F30B0F20028C9B7 = {
+			isa = PBXGroup;
+			children = (
+				612459441F30B0F20028C9B7 /* 03_Play Pause Icon */,
+				612459431F30B0F20028C9B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		612459431F30B0F20028C9B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				612459421F30B0F20028C9B7 /* 03_Play Pause Icon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		612459441F30B0F20028C9B7 /* 03_Play Pause Icon */ = {
+			isa = PBXGroup;
+			children = (
+				612459481F30B0F20028C9B7 /* AppDelegate.h */,
+				612459491F30B0F20028C9B7 /* AppDelegate.m */,
+				612459651F30B1050028C9B7 /* Views */,
+				6124594B1F30B0F20028C9B7 /* ViewController.h */,
+				6124594C1F30B0F20028C9B7 /* ViewController.m */,
+				6124594E1F30B0F20028C9B7 /* Main.storyboard */,
+				612459511F30B0F20028C9B7 /* Assets.xcassets */,
+				612459531F30B0F20028C9B7 /* LaunchScreen.storyboard */,
+				612459561F30B0F20028C9B7 /* Info.plist */,
+				612459451F30B0F20028C9B7 /* Supporting Files */,
+			);
+			path = "03_Play Pause Icon";
+			sourceTree = "<group>";
+		};
+		612459451F30B0F20028C9B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				612459461F30B0F20028C9B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		612459651F30B1050028C9B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6124595C1F30B1000028C9B7 /* PlayLayer.h */,
+				6124595D1F30B1000028C9B7 /* PlayLayer.m */,
+				6124595E1F30B1000028C9B7 /* PauseLayer.h */,
+				6124595F1F30B1000028C9B7 /* PauseLayer.m */,
+				612459601F30B1000028C9B7 /* PlayButton.h */,
+				612459611F30B1000028C9B7 /* PlayButton.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		612459411F30B0F20028C9B7 /* 03_Play Pause Icon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 612459591F30B0F20028C9B7 /* Build configuration list for PBXNativeTarget "03_Play Pause Icon" */;
+			buildPhases = (
+				6124593E1F30B0F20028C9B7 /* Sources */,
+				6124593F1F30B0F20028C9B7 /* Frameworks */,
+				612459401F30B0F20028C9B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03_Play Pause Icon";
+			productName = "03_Play Pause Icon";
+			productReference = 612459421F30B0F20028C9B7 /* 03_Play Pause Icon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6124593A1F30B0F20028C9B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MrCieong;
+				TargetAttributes = {
+					612459411F30B0F20028C9B7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A2TBQ3C2HW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6124593D1F30B0F20028C9B7 /* Build configuration list for PBXProject "03_Play Pause Icon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 612459391F30B0F20028C9B7;
+			productRefGroup = 612459431F30B0F20028C9B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				612459411F30B0F20028C9B7 /* 03_Play Pause Icon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		612459401F30B0F20028C9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612459551F30B0F20028C9B7 /* LaunchScreen.storyboard in Resources */,
+				612459521F30B0F20028C9B7 /* Assets.xcassets in Resources */,
+				612459501F30B0F20028C9B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6124593E1F30B0F20028C9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6124594D1F30B0F20028C9B7 /* ViewController.m in Sources */,
+				612459621F30B1000028C9B7 /* PlayLayer.m in Sources */,
+				6124594A1F30B0F20028C9B7 /* AppDelegate.m in Sources */,
+				612459631F30B1000028C9B7 /* PauseLayer.m in Sources */,
+				612459471F30B0F20028C9B7 /* main.m in Sources */,
+				612459641F30B1000028C9B7 /* PlayButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6124594E1F30B0F20028C9B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6124594F1F30B0F20028C9B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		612459531F30B0F20028C9B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				612459541F30B0F20028C9B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		612459571F30B0F20028C9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		612459581F30B0F20028C9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6124595A1F30B0F20028C9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2TBQ3C2HW;
+				INFOPLIST_FILE = "03_Play Pause Icon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.MrCieong.-3-Play-Pause-Icon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6124595B1F30B0F20028C9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2TBQ3C2HW;
+				INFOPLIST_FILE = "03_Play Pause Icon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.MrCieong.-3-Play-Pause-Icon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6124593D1F30B0F20028C9B7 /* Build configuration list for PBXProject "03_Play Pause Icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612459571F30B0F20028C9B7 /* Debug */,
+				612459581F30B0F20028C9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		612459591F30B0F20028C9B7 /* Build configuration list for PBXNativeTarget "03_Play Pause Icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6124595A1F30B0F20028C9B7 /* Debug */,
+				6124595B1F30B0F20028C9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6124593A1F30B0F20028C9B7 /* Project object */;
+}
