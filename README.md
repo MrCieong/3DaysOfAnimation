@@ -2,7 +2,7 @@
 
 -----
 
-15 days of animation
+3 days of animation
 
 ### 01. Bubble
 
